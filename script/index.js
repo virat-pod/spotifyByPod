@@ -698,7 +698,7 @@ document.addEventListener("click", (e) => {
 
   if (e.target.closest(".playlists")) {
     let activePlaylist = e.target.closest(".playlist-container");
-    if (e.target.closest("#close-playlist")) {
+    if (e.target.closest(".close-playlist")) {
       activePlaylist.classList.remove("active");
       return;
     }

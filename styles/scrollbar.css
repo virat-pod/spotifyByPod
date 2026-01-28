@@ -1,0 +1,21 @@
+/* Making scrollbar for, playlist asidebar */
+.playlist-container:hover::-webkit-scrollbar {
+    width: 9px;
+    height: 1px;
+    background-color: transparent;
+} 
+
+*::-webkit-scrollbar-thumb {
+    background-color: #2d2e2f;
+    border-radius: 8px;
+    height: 0px;
+}
+
+/* Making scrollbar main content to scroll-Y */
+       
+.main-content::-webkit-scrollbar {
+    width: 12px;
+    background-color: transparent;
+}                                   
+            
+

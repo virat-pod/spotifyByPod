@@ -1,0 +1,18 @@
+.color-scale:hover {
+   transform: scale(1.04);
+   color: white;
+}
+
+.color-scale-small:hover {
+    transform: scale(1.025);
+    color: white;       
+  background-color: rgb(36, 36, 36);                       
+}
+
+.color-only:hover {
+    color: white;   
+}
+
+.scale-only:hover {
+    transform: scale(1.04); 
+}

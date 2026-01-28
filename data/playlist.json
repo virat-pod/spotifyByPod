@@ -1,0 +1,21 @@
+[
+  
+  { 
+    "id": "liked",
+    "name": "Liked Songs",
+    "cover": "./assets/playCovers/liked_img.jpg",
+    "songs": [3, 2, 1, 4, 5]
+  },
+  {
+    "id": "english",
+    "name": "Recommended Playlist",
+    "cover": "./assets/playCovers/best_song.jpg",
+    "songs": [5, 6, 7, 8]
+  },
+  {
+    "id": "hindi",
+    "name": "Hindi Playlist",
+    "cover": "./assets/playCovers/hindi_vibes.jpg",
+    "songs": [1, 2, 3, 4]
+  }
+]

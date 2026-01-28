@@ -1,0 +1,76 @@
+[
+    { 
+        "Title": "Top Songs", 
+        "songs": [
+{
+    "id": 1,
+    "title": "Gehra Hua",
+    "artist": "Arijit Singh",
+    "cover": "./assets/covers/gehra_hua.jpg",
+    "audio": "./audio/gehra_hua.mp3",
+    "duration": "6:02"
+},
+{
+    "id": 2,
+    "title": "Pal Pal - Tailwind",
+    "artist": "Tailwinder",
+    "cover": "./assets/covers/pal_pal.jpg",
+    "audio": "./audio/pal_pal_tailwinder.mp3",
+    "duration": "2:38"
+},
+{
+    "id": 3,
+    "title": "Tere Bin Nahin Laage",
+    "artist": "Uzair Jaswal",
+    "cover": "./assets/covers/tere_bin_nahi_laage.jpg",
+    "audio": "./audio/tere_bin_nahi_laage.mp3",
+    "duration": "4:02"
+},
+{
+    "id": 4,
+    "title": "Pal Kaisa Pal",
+    "artist": "Arijit Singh",
+    "cover": "./assets/covers/pal_kaisa_pal.jpg",
+    "audio": "./audio/pal_kaisa_pal.mp3",
+    "duration": "4:46"
+},
+{
+    "id": 5,
+    "title": "Golden Brown",
+    "artist": "The Stranglers",
+    "cover": "./assets/covers/golden_brown.jpg",
+    "audio": "./audio/golden_brown.mp3",
+    "duration": "4:18"
+},
+{
+    "id": 6,
+    "title": "Cigratte after Cry",
+    "artist": "Human",
+    "cover": "./assets/covers/cigratte_after_cry.jpg",
+    "audio": "./audio/Cry.mp3",
+    "duration": "4:16"
+}
+
+]
+    },
+{
+        "Title": "Rated Songs",
+        "songs": [
+{
+    "id": 7,
+    "title": "Heavenly",
+    "artist": "Human",
+    "cover": "./assets/covers/heavenly.jpg",
+    "audio": "./audio/heavenly.mp3",
+    "duration": "4:46"
+},
+{
+    "id": 8,
+    "title": "Indila's Love Story",
+    "artist": "Indila",
+    "cover": "./assets/covers/indila_love.jpg",
+    "audio": "./audio/indila_love_story.mp3",
+    "duration": "5:25"
+}
+        ]
+    }]

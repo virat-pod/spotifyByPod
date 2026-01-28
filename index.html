@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- cdn link fontAwesome -->
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <!-- main css link -->
+    <link rel="stylesheet" href="./styles/animation.css" />
+    <!-- animation css link -->
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <!-- layout css link, checking first then apply -->
+    <link rel="stylesheet" href="./styles/scrollbar.css" />
+    <!-- scrollbar css link -->
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <!-- footer css link -->
+    <link rel="stylesheet" href="./styles/player.css" />
+    <!-- playerBar css link -->
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <!-- responsive css link -->
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+      <div class="nav-logo">
+        <i class="fa-brands fa-spotify"></i> <span>Spotify</span>
+      </div>
+      <div class="nav-left">
+        <div class="home-icon color-scale-small">
+          <i class="fa-solid fa-house"></i>
+        </div>
+        <div class="input-section">
+          <div class="search-icon color-only">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input type="text" placeholder="What do you want to play?" />
+          <div class="seprator-line"></div>
+          <div class="browse-icon color-only">
+            <i class="fa-solid fa-folder-open"></i>
+          </div>
+        </div>
+      </div>
+      <div class="small-screen-links">
+        <button class="open-app">Open App</button>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="nav-support-link">
+          <button class="support-btn color-scale">Premium</button>
+          <button class="support-btn color-scale">Support</button>
+          <button class="support-btn color-scale">Download</button>
+        </div>
+        <div class="navigation-seprator-line"></div>
+        <div class="nav-login-links">
+          <div class="install-app-container">
+            <button class="install-app">
+              <i class="fa-regular fa-circle-down"></i> <span>Install App</span>
+            </button>
+          </div>
+          <div class="login-auth-links">
+            <button class="auth-btn sign-up color-scale">Sign up</button>
+            <button class="auth-btn log-in">Log in</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <aside class="nav-menu">
+      <div class="close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="menu-links">
+        <div class="menu-auth">
+          <a id="Sign-up">Log in</a>
+          <a id="log-in">Sign up</a>
+        </div>
+        <div class="menu-line"></div>
+        <div class="menu-link">
+          <a>Premium</a>
+          <a>Help</a>
+          <a>Download</a>
+          <a>Privacy</a>
+          <a>Terms</a>
+        </div>
+      </div>
+    </aside>
+
+   <!-- Main Contents -->
+
+    <main class="app">
+      <div class="total-app">
+        <aside class="playlist-container"></aside>
+        <section class="main-content">
+          <!-- right content -->
+          <div class="main-song-contents">
+            <div class="responsive-playlist">
+             <i class="fa-solid fa-caret-right"></i>
+            </div>
+            <div class="songs"></div>
+            <div class="songs song-playlists"></div>
+          </div>
+
+          <footer class="footer">
+            <div class="full-footer">
+              <hr class="footer-hr" />
+              <div class="footer-link-part">
+                <div class="footer-links">
+                  <div class="footer-link">
+                    <h1>Company</h1>
+                    <div class="card-link">
+                      <a>About</a>
+                      <a>Jobs</a>
+                      <a>For the record</a>
+                    </div>
+                  </div>
+                  <div class="footer-link">
+                    <h1>Communitys</h1>
+                    <div class="card-link">
+                      <a>For Artists</a>
+                      <a>Developers</a>
+                      <a>Advertising</a>
+                      <a>Investors</a>
+                      <a>Vendors</a>
+                    </div>
+                  </div>
+                  <div class="footer-link">
+                    <h1>Useful Links</h1>
+                    <div class="card-link">
+                      <a>Support</a>
+                      <a>Free Mobile App</a>
+                      <a>Popular by Country</a>
+                      <a>Import your music</a>
+                    </div>
+                  </div>
+                  <div class="footer-link">
+                    <h1>Spotify Plans</h1>
+                    <div class="card-link">
+                      <a>Premium Lite</a>
+                      <a>Premium Standard</a>
+                      <a>Premium Platinum</a>
+                      <a>Premium Student</a>
+                      <a>Spotify Free</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="social">
+                  <a
+                    ><i
+                      class="fa-brands fa-instagram"
+                      style="color: #ffffff"
+                    ></i
+                  ></a>
+                  <a
+                    ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+                  ></a>
+                  <a
+                    ><i class="fa-brands fa-facebook" style="color: #ffffff"></i
+                  ></a>
+                </div>
+              </div>
+              <hr class="footer-hr" />
+              <div class="copy">
+                <div class="copy-links">
+                  <a>Legal</a>
+                  <a>Safety & Privacy Center</a>
+                  <a>Privacy Policy</a>
+                  <a>Cookies</a>
+                  <a>About Ads</a>
+                  <a>Accessibility</a>
+                </div>
+                <div class="copyright">
+                  &copy; Spotify By
+                  <a
+                    href="https://github.com/virat-pod"
+                    id="virat-pod"
+                    target="_blank"
+                    >ViratPod</a
+                  >
+                </div>
+              </div>
+            </div>
+          </footer>
+        </section>
+      </div>
+    </main>
+
+    <!-- Player Section (controllers) -->
+
+    <section class="player">
+      <div class="music">
+        <div class="music-content">
+          <img src="https://pbs.twimg.com/media/G9iR0rpXQAAdJhu.jpg" alt="" />
+          <div class="music-info">
+            <h2>Nothing is Playing</h2>
+            <p>Choose your Song To play</p>
+          </div>
+        </div>
+      </div>
+      <div class="player-bar">
+        <div class="player-btns">
+          <div class="img-icon">
+            <img src="https://pbs.twimg.com/media/G9iR0rpXQAAdJhu.jpg" alt="" />
+          </div>
+          <div id="shuffle"><i class="fa-solid fa-shuffle"></i></div>
+          <div id="backward"><i class="fa-solid fa-backward-step"></i></div>
+          <div id="play"><i class="fa-solid fa-play"></i></div>
+          <div id="upward"><i class="fa-solid fa-forward-step"></i></div>
+          <div id="repeat"><i class="fa-solid fa-repeat"></i></div>
+        </div>
+        <div class="progress-bar">
+          <span class="time start-time">0:00</span>
+          <input id="progressbar" type="range" value="0" />
+          <span class="time end-time">0:00</span>
+        </div>
+      </div>
+      <div class="extra-controls">
+        <div class="extra-btns">
+          <div class="volume">
+            <div class="volume-icon">
+              <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <input id="volumeBar" type="range" min="0" max="100" value="100" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>

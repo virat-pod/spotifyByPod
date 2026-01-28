@@ -1,0 +1,254 @@
+.player {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  height: 6rem;
+  padding: 1rem 1rem;
+  gap: 2rem;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+}
+
+.music-content {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+  flex: 0 0 auto;
+  min-width: 0;
+}
+
+.music-content img {
+  width: 5rem;
+  max-height: 5rem;
+  flex-shrink: 0; 
+  border-radius: 10px;
+  object-fit: cover;
+  background-color: black;
+  opacity: 0;
+}
+
+.music-info {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  gap: 0.3rem;
+  flex-grow: 1;
+}
+
+.music-info h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.music-info p {
+  font-size: 1.2rem;
+  color: #a2a2a2;
+}
+
+.player-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+  min-width: 0;
+  gap: 0.8rem;
+}
+
+.player-btns {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-btns div {
+  display: flex;
+  align-items: center;
+  gap: 2.6rem;
+  color: rgb(175, 172, 172);
+  font-size: 2rem;
+}
+
+.img-icon {
+  align-items: center;
+  margin-top: 0.2rem;
+  margin-left: -1.3rem;
+  background: black;
+}
+
+.img-icon img {
+  height: 3rem;
+  display: none;
+  width: 3rem;
+  border-radius: 8px;
+}
+
+.player-btns div:hover {
+  cursor: pointer;
+  color: white;
+  transform: scale(1.03);
+}
+
+.player-btns #play {
+  width: 3rem;
+  height: 3rem;
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  padding-left: 0.05rem;
+}
+
+.player-btns #play:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  background-color: rgb(235, 235, 235);
+}
+
+#shuffle.active {
+  color: rgb(5, 151, 5);
+}
+
+#repeat.active {
+  color: rgb(5, 151, 5);
+}
+
+.progress-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.2rem;
+  gap: 0.8rem;
+}
+
+.progress-bar span {
+  width: 3rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(179, 179, 179);
+  font-weight: 500;
+}
+
+#progressbar {
+  width: 100%;
+  max-width: min(45rem, 100%);
+  height: 0.4rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  appearance: none;
+  background: linear-gradient(
+    to right,
+    #ffffff var(--progress, 0%),
+    #3a3a3a var(--progress, 0%)
+  );
+}
+
+#progressbar:hover {
+  height: 0.45rem;
+  background: linear-gradient(
+    to right,
+    rgb(33, 235, 100) var(--progress, 0%),
+    rgb(80, 80, 80) var(--progress, 0%)
+  );
+}
+
+#progressbar::-webkit-slider-thumb {
+  appearance: none;
+  width: 0;
+  height: 0;
+  background: white;
+  border-radius: 50%;
+  transition:
+    width 0.15s ease,
+    height 0.15s ease;
+}
+
+#progressbar:hover::-webkit-slider-thumb {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.extra-controls {
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 2rem 0rem 0rem;
+  gap: 0.2rem;
+  color: white;
+}
+
+.volume {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+
+}
+
+.volume i {
+  font-size: 1.6rem;
+  color: rgb(179, 179, 179);
+  cursor: pointer;
+  width: 1.6rem;
+  display: block;
+}
+
+
+
+.volume input {
+  flex: 1;
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    #ffffff var(--volume, 100%),
+    #3a3a3a var(--volume, 0%)
+  );
+  appearance: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.volume input:hover {
+  height: 4px;
+  background: linear-gradient(
+    to right,
+    rgb(33, 235, 100) var(--volume, 100%),
+    rgb(80, 80, 80) var(--volume, 0%)
+  );  
+}
+
+.volume input::-webkit-slider-thumb {
+  appearance: none;
+}
+
+.volume input:hover::-webkit-slider-thumb {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.volume i:hover  {
+  color: white;
+  /* transform: scale(1); */
+}
+
+.volume i:hover ~ input::-webkit-slider-thumb  {
+   /* appearance: none; */
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}        

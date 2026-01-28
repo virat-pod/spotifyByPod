@@ -522,10 +522,13 @@ if (!playlistId) return;
 const card = findCard(playlistId);
 if (!card) return;
 playlistCard = card;
+
 // now adding some active class to make responsive
 const responsiveCard = document.querySelector(".playlist-container");
 if (responsiveCard) responsiveCard.classList.add("active");
+
 playlistToggle.classList.add("active");
+
 currentSong = null;
 currentSongIndex = null;
 resetUI();
@@ -708,15 +711,18 @@ document.addEventListener("click", (e) => {
   }
   const card = e.target.closest(".playlist-card");
   if (!card) return;
-  const playlistId = Number(card.dataset.id);
+  const playlistId = card.dataset.id;
   const song = playlistState.songs.find(s => s.id === playlistId);
   if (!song) return;
+
   playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
   CurrentPlaylistSongNo = song.id;
+
   playAudio(song);
   togglePlaylistActive(activePlaylist);
 
 }
+
 
 });
 

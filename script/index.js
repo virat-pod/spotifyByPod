@@ -725,3 +725,13 @@ playlistToggle.addEventListener("click", () => {
 function togglePlaylistActive(playlist) {
   playlist.classList.toggle("active");
 };
+
+document.addEventListener("click", (e) => {
+ if (!CurrentPlaylist) return;
+  const activePlaylist = document.querySelector(".playlist-container.active");
+  if (!activePlaylist) return;
+
+  if (!e.target.closest(".playlist-container")) {
+    activePlaylist.classList.remove("active");
+  }
+});

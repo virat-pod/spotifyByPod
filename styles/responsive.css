@@ -161,8 +161,9 @@
   /* main */
 
   .app {
-  height: calc(100vh - 9.55rem - 6.1rem);
-}
+    height: calc(100dvh - 9.55rem - 6rem);
+    padding-bottom: 6rem;
+  }
 
   .song-list:hover .arrow {
     opacity: 0;
@@ -171,6 +172,22 @@
   }
 
   /* music controller */
+
+  .player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  gap: 2rem;
+  z-index: 999; /* above other content */
+  background-color: #fff; /* or whatever your design is */
+}
+
   
   
   .player-bar .player-btns {

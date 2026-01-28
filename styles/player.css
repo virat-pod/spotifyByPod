@@ -99,13 +99,14 @@
 .player-btns #play {
   width: 3rem;
   height: 3rem;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   background-color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: black;
+  padding-top: 0.05rem;
   padding-left: 0.05rem;
 }
 

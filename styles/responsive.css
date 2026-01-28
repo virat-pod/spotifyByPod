@@ -162,7 +162,6 @@
 
   .app {
     height: calc(100dvh - 9.55rem - 6rem);
-    padding-bottom: 6rem;
   }
 
   .song-list:hover .arrow {
@@ -185,7 +184,6 @@
   padding: 1rem;
   gap: 2rem;
   z-index: 999; /* above other content */
-  background-color: #fff; /* or whatever your design is */
 }
 
   

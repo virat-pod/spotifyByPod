@@ -707,8 +707,6 @@ document.addEventListener("click", (e) => {
       activePlaylist.classList.remove("active");
       return;
     }
-    const card = e.target.closest(".playlist-card");
-    if (!card) return;
     const playlistId = card.dataset.id;
     const song = playlistState.songs.find(
       (song) => song.id === Number(playlistId));
@@ -717,7 +715,6 @@ document.addEventListener("click", (e) => {
     CurrentPlaylistSongNo = song.id;
     playAudio(song);
     togglePlaylistActive(activePlaylist);
-    cardToggle(card, false);
   }
 });
 

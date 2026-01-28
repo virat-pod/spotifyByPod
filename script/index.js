@@ -711,8 +711,7 @@ document.addEventListener("click", (e) => {
     if (!card) return;
     const playlistId = card.dataset.id;
     const song = playlistState.songs.find(
-      (song) => song.id === Number(playlistId),
-    );
+      (song) => song.id === Number(playlistId));
     const index = playlistState.songs.findIndex((s) => s.id === song.id);
     playlistState.index = index;
     CurrentPlaylistSongNo = song.id;

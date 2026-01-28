@@ -161,7 +161,7 @@
   /* main */
 
   .app {
-    height: calc(100dvh - 9.55rem - 6rem);
+    height: calc(100dvh - 8rem - 6rem);
   }
 
   .song-list:hover .arrow {
@@ -177,7 +177,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 3rem;
+  height: 6.1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;

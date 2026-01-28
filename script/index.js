@@ -702,19 +702,21 @@ document.addEventListener("click", (e) => {
   if (e.target.closest(".all-playlists")) return; // ignore clicks inside all-playlists container
 
   if (e.target.closest(".playlists")) {
-    let activePlaylist = e.target.closest(".playlist-container");
+    const activePlaylist = e.target.closest(".playlist-container");
     if (e.target.closest(".close-playlist")) {
       activePlaylist.classList.remove("active");
       return;
     }
-    const playlistId = card.dataset.id;
-    const song = playlistState.songs.find(
-      (song) => song.id === Number(playlistId));
-    const index = playlistState.songs.findIndex((s) => s.id === song.id);
-    playlistState.index = index;
+    const card = e.target.closest(".playlist-card");
+    if (!card) return;
+    const playlistId = Number(card.dataset.id);
+    const song = playlistState.songs.find(s => s.id === playlistId);
+    if (!song) return;
+    playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
     CurrentPlaylistSongNo = song.id;
     playAudio(song);
     togglePlaylistActive(activePlaylist);
+    cardToggle(card, false);
   }
 });
 

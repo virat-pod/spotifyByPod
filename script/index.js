@@ -694,7 +694,7 @@ function renderPlaylistSongs(currentPlaylist, playlistCard) {
 
 //now making, playlist responsive system. with playlist song click option.
 document.addEventListener("click", (e) => {
-  if (e.target.closest(".all-playlists")) return; //return when playlist not contains songs.
+  if (e.target.closest(".all-playlists")) return; // ignore clicks inside all-playlists container
 
   if (e.target.closest(".playlists")) {
     let activePlaylist = e.target.closest(".playlist-container");
@@ -705,7 +705,6 @@ document.addEventListener("click", (e) => {
     const card = e.target.closest(".playlist-card");
     if (!card) return;
     const playlistId = card.dataset.id;
-    // const playlistCard = findCard(CurrentPlaylist);
     const song = playlistState.songs.find(
       (song) => song.id === Number(playlistId),
     );
@@ -714,7 +713,7 @@ document.addEventListener("click", (e) => {
     CurrentPlaylistSongNo = song.id;
     playAudio(song);
     togglePlaylistActive(activePlaylist);
-    cardToggle(playlistCard, false);
+    cardToggle(card, false);
   }
 });
 

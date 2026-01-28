@@ -160,6 +160,10 @@
 
   /* main */
 
+  .app {
+  height: calc(100vh - 10rem - 6.1rem);
+}
+
   .song-list:hover .arrow {
     opacity: 0;
     pointer-events: none;
@@ -167,9 +171,7 @@
   }
 
   /* music controller */
-  .player {
-  height: 8rem;
-}
+  
   
   .player-bar .player-btns {
     gap: 1.8rem;

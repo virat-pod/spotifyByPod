@@ -702,22 +702,23 @@ document.addEventListener("click", (e) => {
   if (e.target.closest(".all-playlists")) return; // ignore clicks inside all-playlists container
 
   if (e.target.closest(".playlists")) {
-    const activePlaylist = e.target.closest(".playlist-container");
-    if (e.target.closest(".close-playlist")) {
-      activePlaylist.classList.remove("active");
-      return;
-    }
-    const card = e.target.closest(".playlist-card");
-    if (!card) return;
-    const playlistId = Number(card.dataset.id);
-    const song = playlistState.songs.find(s => s.id === playlistId);
-    if (!song) return;
-    playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
-    CurrentPlaylistSongNo = song.id;
-    playAudio(song);
-    togglePlaylistActive(activePlaylist);
-    cardToggle(card, false);
+  const activePlaylist = e.target.closest(".playlist-container");
+  if (e.target.closest(".close-playlist")) {
+    activePlaylist.classList.remove("active");
+    return;
   }
+  const card = e.target.closest(".playlist-card");
+  if (!card) return;
+  const playlistId = Number(card.dataset.id);
+  const song = playlistState.songs.find(s => s.id === playlistId);
+  if (!song) return;
+  playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
+  CurrentPlaylistSongNo = song.id;
+  playAudio(song);
+  togglePlaylistActive(activePlaylist);
+
+}
+
 });
 
 playlistToggle.addEventListener("click", () => {

@@ -513,19 +513,24 @@ document.addEventListener("click", (e) => {
 let playlistToggle = document.querySelector(".responsive-playlist"); //this is using for, small screen playlists
 
 document.addEventListener("click", (e) => {
-  if (e.target.closest(".song-playlist-card")) {
-    const playlistId = e.target.closest(".song-playlist-card").dataset.id;
-    const card = findCard(playlistId);
-    playlistCard = card;
-    //now adding, some active class, to making responsive
-    const responsiveCard = document.querySelector(".playlist-container");
-    responsiveCard.classList.add("active");
-    playlistToggle.classList.add("active");
-    currentSong = null;
-    resetUI();
-    currentSongIndex = null;
-    changePlaylist(card, playlistId, true);
-  }
+const playlistCurrentCard = e.target.closest(".song-playlist-card");
+if (!playlistCurrentCard) return;
+const playBtn = e.target.closest(".song-playlist-card .playlist-play");
+if (!playBtn) return;
+const playlistId = playlistCurrentCard.dataset.id;
+if (!playlistId) return;
+const card = findCard(playlistId);
+if (!card) return;
+playlistCard = card;
+
+// now adding some active class to make responsive
+const responsiveCard = document.querySelector(".playlist-container");
+if (responsiveCard) responsiveCard.classList.add("active");
+playlistToggle.classList.add("active");
+currentSong = null;
+currentSongIndex = null;
+resetUI();
+changePlaylist(card, playlistId, true);
 });
 
 function changePlaylist(card, currentPlaylist, shouldPlay = false) {

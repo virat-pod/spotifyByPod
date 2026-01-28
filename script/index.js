@@ -525,6 +525,7 @@ playlistCard = card;
 
 // now adding some active class to make responsive
 const responsiveCard = document.querySelector(".playlist-container");
+console.log("responsiveCard");
 if (responsiveCard) responsiveCard.classList.add("active");
 
 playlistToggle.classList.add("active");

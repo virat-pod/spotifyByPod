@@ -522,7 +522,6 @@ if (!playlistId) return;
 const card = findCard(playlistId);
 if (!card) return;
 playlistCard = card;
-
 // now adding some active class to make responsive
 const responsiveCard = document.querySelector(".playlist-container");
 if (responsiveCard) responsiveCard.classList.add("active");

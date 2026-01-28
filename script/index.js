@@ -1,8 +1,3 @@
-// !!BAN!! of making.
-// 🚫 Do NOT open your old Spotify project
-// 🚫 Do NOT compare files
-// 🚫 Do NOT judge similarity
-
 //Making, nav-menu open close
 
 const hamburger = document.querySelector(".hamburger");
@@ -702,9 +697,8 @@ document.addEventListener("click", (e) => {
   if (e.target.closest(".all-playlists")) return; //return when playlist not contains songs.
 
   if (e.target.closest(".playlists")) {
-    let activePlaylist;
+    let activePlaylist = e.target.closest(".playlist-container");
     if (e.target.closest("#close-playlist")) {
-      activePlaylist = e.target.closest(".playlist-container");
       activePlaylist.classList.remove("active");
       return;
     }

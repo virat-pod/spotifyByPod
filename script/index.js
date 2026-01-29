@@ -702,46 +702,51 @@ function renderPlaylistSongs(currentPlaylist, playlistCard) {
 
 //now making, playlist responsive system. with playlist song click option.
 document.addEventListener("click", (e) => {
-  if (e.target.closest(".all-playlists")) return; // ignore clicks inside all-playlists container
-
+  if (e.target.closest(".all-playlists")) return;
   if (e.target.closest(".playlists")) {
-  const activePlaylist = e.target.closest(".playlist-container");
-  if (e.target.closest(".close-playlist")) {
-    activePlaylist.classList.remove("active");
-    return;
+    const activePlaylist = e.target.closest(".playlist-container");
+    if (e.target.closest(".close-playlist")) {
+      activePlaylist.classList.remove("active");
+      return;
+    }
+    const card = e.target.closest(".playlist-card"); 
+    if (!card) return;
+    const playlistId = card.dataset.id; 
+    const song = playlistState.songs.find(s => s.id == playlistId);
+    if (!song) return;
+    playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
+    CurrentPlaylistSongNo = song.id;
+    playAudio(song);
+    activePlaylist.classList.remove("active"); 
   }
-  const card = e.target.closest(".playlist-card");
-  if (!card) return;
-  const playlistId = card.dataset.id;
-  const song = playlistState.songs.find(s => s.id === playlistId);
-  if (!song) return;
-
-  playlistState.index = playlistState.songs.findIndex(s => s.id === song.id);
-  CurrentPlaylistSongNo = song.id;
-
-  playAudio(song);
-  togglePlaylistActive(activePlaylist);
-
-}
-
-
 });
 
-playlistToggle.addEventListener("click", () => {
+
+playlistToggle.addEventListener("click", (e) => {
+  e.stopPropagation();
   const playlist = document.querySelector(".playlist-container");
-  togglePlaylistActive(playlist);
+  if (playlist) togglePlaylistActive(playlist);
 });
 
 function togglePlaylistActive(playlist) {
   playlist.classList.toggle("active");
-};
+}
+
+
 
 document.addEventListener("click", (e) => {
- if (!CurrentPlaylist) return;
+  if (!CurrentPlaylist) return;
+
   const activePlaylist = document.querySelector(".playlist-container.active");
   if (!activePlaylist) return;
 
-  if (!e.target.closest(".playlist-container")) {
-    activePlaylist.classList.remove("active");
+  if (
+    e.target.closest(".playlist-container") ||
+    e.target.closest(".song-playlist-card")
+  ) {
+    return;
   }
+
+  activePlaylist.classList.remove("active");
 });
+

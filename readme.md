@@ -76,7 +76,7 @@ Then open http://localhost:8000 in a modern browser (Chrome, Firefox, Edge, Safa
 ## Website / Demo
 - Author / Repo: [ViratPod · GitHub](https://github.com/virat-pod)
 - Live demo (optional): If you publish a live demo (GitHub Pages, Netlify, Vercel, etc.), add the URL here so users can try it online. Example format:
-  - Live demo: <a href="https://spotify-vibes.vercel.app" target="_blank">Spotify Vibes | Click HERE</a>
+  - Live demo: <a href="https://spotify-vibes.vercel.app" target="_blank">Spotify Vibes | LIVE HOSTED</a>
 
 Tip: After deploying, replace the example above with your real demo URL so visitors can launch the app without running it locally.
 

@@ -2,7 +2,7 @@
 
 A lightweight, static, Spotify-inspired music player built with plain HTML, CSS and JavaScript. This repository is a client-only demo that reads song and playlist data from local JSON files and plays bundled audio assets.
 
-<img src="./assets/icons/spotify-icon.svg" alt="" width="100%">
+<img src="./assets/icons/spotify-icon.svg" alt="" width="20%">
 
 ---
 

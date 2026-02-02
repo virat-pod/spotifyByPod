@@ -287,9 +287,3 @@ Add localStorage persistence for "liked" songs (suggested):
 - This repository currently has no explicit license file. If you plan to reuse, consider adding a LICENSE (MIT is common for UI templates).
 - Author: ViratPod (see index.html link to https://github.com/virat-pod/spotifyByPod)
 
----
-
-If you want, I can:
-- Generate a sample MIT LICENSE file
-- Provide a small checklist to convert this into a reusable NPM package or a simple React/Vue project
-- Create quick unit tests for the core playback logic

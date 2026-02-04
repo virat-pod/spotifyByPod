@@ -2,20 +2,20 @@
   
   { 
     "id": "liked",
-    "name": "Liked Songs",
+    "name": "Recommended Playlist",
     "cover": "./assets/playCovers/liked_img.jpg",
-    "songs": [3, 2, 1, 4, 5]
+    "songs": [1, 4, 7, 3, 5]
   },
   {
     "id": "english",
-    "name": "Recommended Playlist",
-    "cover": "./assets/playCovers/best_song.jpg",
-    "songs": [5, 6, 7, 8]
+    "name": "English Vibes",
+    "cover": "./assets/playCovers/egnlish_songs.jpg",
+    "songs": [8, 9, 10, 12]
   },
   {
     "id": "hindi",
-    "name": "Hindi Playlist",
+    "name": "Hindi Vibes",
     "cover": "./assets/playCovers/hindi_vibes.jpg",
-    "songs": [1, 2, 3, 4]
+    "songs": [7, 5, 4, 6, 1]
   }
 ]

@@ -4,11 +4,11 @@
         "songs": [
 {
     "id": 1,
-    "title": "Gehra Hua",
+    "title": "Pal Kaisa Pal",
     "artist": "Arijit Singh",
-    "cover": "./assets/covers/gehra_hua.jpg",
-    "audio": "./audio/gehra_hua.mp3",
-    "duration": "6:02"
+    "cover": "./assets/covers/pal_kaisa_pal.jpg",
+    "audio": "./audio/pal_kaisa_pal.mp3",
+    "duration": "4:46"
 },
 {
     "id": 2,
@@ -28,14 +28,52 @@
 },
 {
     "id": 4,
-    "title": "Pal Kaisa Pal",
-    "artist": "Arijit Singh",
-    "cover": "./assets/covers/pal_kaisa_pal.jpg",
-    "audio": "./audio/pal_kaisa_pal.mp3",
-    "duration": "4:46"
+    "title": "Arz Kiya Hai",
+    "artist": "Anuv Jain",
+    "cover": "./assets/covers/arj_kiya_hai.jpg",
+    "audio": "./audio/arz_kiya_hai.mp3",
+    "duration": "4:50"
 },
 {
     "id": 5,
+    "title": "Baarishein",
+    "artist": "Anuv Jain",
+    "cover": "./assets/covers/baarishen.jpg",
+    "audio": "./audio/baarishein.mp3",
+    "duration": "3:34"
+},
+{
+    "id": 6,
+    "title": "Gehra Hua",
+    "artist": "Arijit Singh",
+    "cover": "./assets/covers/gehra_hua.jpg",
+    "audio": "./audio/gehra_hua.mp3",
+    "duration": "6:02"
+},
+{
+    "id": 7,
+    "title": "Husn",
+    "artist": "Anuv Jain",
+    "cover": "./assets/covers/husn.png",
+    "audio": "./audio/husn.mp3",
+    "duration": "3:59"
+}
+
+]
+    },
+{
+        "Title": "English Songs",
+        "songs": [
+{
+    "id": 8,
+    "title": "Perfect",
+    "artist": "ED sheeran",
+    "cover": "./assets/covers/perfect.jpg",
+    "audio": "./audio/perfect.mp3",
+    "duration": "4:39"
+},            
+{
+    "id": 9,
     "title": "Golden Brown",
     "artist": "The Stranglers",
     "cover": "./assets/covers/golden_brown.jpg",
@@ -43,21 +81,23 @@
     "duration": "4:18"
 },
 {
-    "id": 6,
+    "id": 10,
+    "title": "Let Down",
+    "artist": "Radiohead",
+    "cover": "./assets/covers/let_down.png",
+    "audio": "./audio/let_down.mp3",
+    "duration": "3:58"
+},
+{
+    "id": 11,
     "title": "Cigratte after Cry",
     "artist": "Human",
     "cover": "./assets/covers/cigratte_after_cry.jpg",
     "audio": "./audio/Cry.mp3",
     "duration": "4:16"
-}
-
-]
-    },
+},
 {
-        "Title": "Rated Songs",
-        "songs": [
-{
-    "id": 7,
+    "id": 12,
     "title": "Heavenly",
     "artist": "Human",
     "cover": "./assets/covers/heavenly.jpg",
@@ -65,7 +105,7 @@
     "duration": "4:46"
 },
 {
-    "id": 8,
+    "id": 13,
     "title": "Indila's Love Story",
     "artist": "Indila",
     "cover": "./assets/covers/indila_love.jpg",

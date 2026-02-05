@@ -2,11 +2,15 @@
 .playlist-container {
 overflow: hidden;
 }
+
+.playlist-container:hover {
+ overflow: auto;
+}
+
 .playlist-container:hover::-webkit-scrollbar {
     width: 9px;
     height: 1px;
     background-color: transparent;
-    overflow:auto;
 } 
 
 *::-webkit-scrollbar-thumb {

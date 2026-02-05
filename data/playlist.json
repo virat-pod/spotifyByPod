@@ -2,7 +2,7 @@
   
   { 
     "id": "liked",
-    "name": "Anuv Arjit MixUp",
+    "name": "Anuv arjit mashup",
     "cover": "./assets/playCovers/liked_img.jpg",
     "songs": [1, 4, 7, 6, 3, 5]
   },

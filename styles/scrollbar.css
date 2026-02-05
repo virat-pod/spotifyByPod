@@ -6,7 +6,7 @@ overflow: hidden;
     width: 9px;
     height: 1px;
     background-color: transparent;
-    overflow-y:scroll;
+    overflow:auto;
 } 
 
 *::-webkit-scrollbar-thumb {

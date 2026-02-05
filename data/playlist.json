@@ -2,9 +2,9 @@
   
   { 
     "id": "liked",
-    "name": "Recommended Playlist",
+    "name": "Anuv Arjit MixUp",
     "cover": "./assets/playCovers/liked_img.jpg",
-    "songs": [1, 4, 7, 3, 5]
+    "songs": [1, 4, 7, 6, 3, 5]
   },
   {
     "id": "english",

@@ -9,7 +9,7 @@
   {
     "id": "english",
     "name": "English Vibes",
-    "cover": "./assets/playCovers/egnlish_songs.jpg",
+    "cover": "./assets/playCovers/english_songs.jpg",
     "songs": [8, 9, 10, 12]
   },
   {

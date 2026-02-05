@@ -7,7 +7,7 @@ overflow: hidden;
  overflow: auto;
 }
 
-.playlist-container:hover::-webkit-scrollbar {
+.playlist-container::-webkit-scrollbar {
     width: 9px;
     height: 1px;
     background-color: transparent;

@@ -10,7 +10,7 @@
     "id": "english",
     "name": "English Vibes",
     "cover": "./assets/playCovers/english_songs.jpg",
-    "songs": [8, 9, 10, 12]
+    "songs": [8, 10, 9, 14]
   },
   {
     "id": "hindi",

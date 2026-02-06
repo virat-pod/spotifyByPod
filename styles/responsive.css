@@ -139,6 +139,10 @@
     justify-content: center;
   }
 
+  .player-bar {
+  padding-right: 0rem;
+  }
+
   .music {
     display: none;
   }

@@ -131,7 +131,7 @@
   justify-content: center;
   align-items: center;
   padding: 0rem 0.2rem;
-  gap: 0.8rem;
+  gap: 0.7rem;
 }
 
 .progress-bar span {
@@ -144,7 +144,7 @@
 
 #progressbar {
   width: 100%;
-  max-width: min(42rem, 100%);
+  max-width: min(43rem, 100%);
   height: 0.3rem;
   border-radius: 2rem;
   cursor: pointer;

@@ -58,7 +58,7 @@
   align-items: center;
   flex: 2;
   min-width: 0;
-  gap: 0.4rem;
+  gap: 0.8rem;
   padding-right: 04rem;
 }
 
@@ -74,7 +74,7 @@
   align-items: center;
   gap: 2.4rem;
   color: rgb(175, 172, 172);
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 
 .img-icon {
@@ -98,8 +98,8 @@
 }
 
 .player-btns #play {
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 3.2rem;
+  height: 3.2rem;
   font-size: 1.45rem;
   background-color: white;
   border-radius: 50%;
@@ -137,7 +137,7 @@
 .progress-bar span {
   width: 3rem;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: rgb(179, 179, 179);
   font-weight: 500;
 }
@@ -145,14 +145,14 @@
 #progressbar {
   width: 100%;
   max-width: min(45rem, 100%);
-  height: 0.28rem;
+  height: 0.3rem;
   border-radius: 2rem;
   cursor: pointer;
   appearance: none;
   background: linear-gradient(
     to right,
     #ffffff var(--progress, 0%),
-    #3a3a3a var(--progress, 0%)
+    #4d4d4d var(--progress, 0%)
   );
 }
 

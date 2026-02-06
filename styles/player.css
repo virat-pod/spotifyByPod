@@ -157,7 +157,7 @@
 }
 
 #progressbar:hover {
-  height: 0.28rem;
+  height: 0.3rem;
   background: linear-gradient(
     to right,
     rgb(33, 235, 100) var(--progress, 0%),

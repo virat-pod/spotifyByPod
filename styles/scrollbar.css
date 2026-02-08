@@ -22,7 +22,7 @@ overflow: hidden;
 /* Making scrollbar main content to scroll-Y */
        
 .main-content::-webkit-scrollbar {
-    width: 10px;
+    width: 14px;
     background-color: transparent;
 }                                   
             

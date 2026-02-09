@@ -23,10 +23,6 @@
 
   /* Main sections */
 
-  .playlist-container h1 {
-    font-size: 1.7rem;
-  }
-
   .main-content {
     flex: 1;
     min-width: 0;

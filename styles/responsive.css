@@ -156,6 +156,25 @@
   }
 }
 
+@media (max-width: 780px) {
+.playlist-card img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 10px;
+}
+
+  .playlist-card h2{
+    font-size: 1.5rem;
+  }
+  
+  .playlist-card p {
+  color: rgb(179, 179, 179);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+}
+
 @media (max-width: 480px) {
   /* nav */
   .open-app {

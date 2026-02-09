@@ -63,17 +63,23 @@
     transform: translateX(0);
   }
 
+  .playlist-card-container {
+  gap: 0.8rem;
+  height: 100%;
+  padding-left: 0.2rem;
+}
+
   .playlist-title .close-playlist {
     display: flex;  
   }
 
   .playlist-card img {
-    width: 5.8rem;
-    height: 5.8rem;   
+    width: 6.6rem;
+    height: 6.6rem;   
   }
 
   .playlist-card h2{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
 
 
@@ -156,24 +162,6 @@
   }
 }
 
-@media (max-width: 780px) {
-.playlist-card img {
-  width: 6rem;
-  height: 6rem;
-  border-radius: 10px;
-}
-
-  .playlist-card h2{
-    font-size: 1.5rem;
-  }
-  
-  .playlist-card p {
-  color: rgb(179, 179, 179);
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-}
 
 @media (max-width: 480px) {
   /* nav */

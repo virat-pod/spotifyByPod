@@ -42,6 +42,10 @@
 
   /* Left parts */
 
+  .playlist-container h1 {
+     font-size: 1.85rem;
+  }
+
     .playlist-container {
     position: fixed;
     height: 100vh;

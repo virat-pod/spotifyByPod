@@ -1,3 +1,10 @@
+//Load URL when press on home/icon
+document.querySelector(".home-icon").addEventListener("click", () => {
+ window.location.reload();
+});
+
+
+
 //Making, nav-menu open close
 
 const hamburger = document.querySelector(".hamburger");

@@ -276,6 +276,12 @@
   padding-top: 0.3rem;
 }
 
+.song-info h2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 .song-info p {
   color: rgb(167, 166, 166);

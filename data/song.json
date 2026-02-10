@@ -90,11 +90,11 @@
 },    
 {
     "id": 11,
-    "title": "Neighbourhood",
-    "artist": "Tommy Scott",
-    "cover": "./assets/covers/neighbourhood.jpg",
-    "audio": "./audio/neighbourhood.mp3",
-    "duration": "4:36"
+    "title": "Mine-love x Slowed-Reverb",
+    "artist": "Mitski",
+    "cover": "./assets/covers/mine_all_mine.jpeg",
+    "audio": "./audio/mylovemine.mp3",
+    "duration": "2:50"
 },             
 {
     "id": 12,

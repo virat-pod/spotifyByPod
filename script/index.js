@@ -443,16 +443,19 @@ function renderPlaylist(data) {
     Card.classList.add("song-card", "song-playlist-card");
     Card.dataset.id = card.id;
     Card.innerHTML = `
+                   <div class="song-cover playlist-song-cover">
                     <img
                       src="${card.cover}"
                       alt="Chad"
                     />
-                    <div class="song-info song-playlist-info">
-                      <h2>${card.name}</h2>
-                    </div>
                     <div class="song-play playlist-play">
                       <i class="fa-solid fa-play"></i>
                     </div>
+                     </div>
+                    <div class="song-info song-playlist-info">
+                      <h2>${card.name}</h2>
+                    </div>
+                    
                   `;
     CardContainer.appendChild(Card);
   });

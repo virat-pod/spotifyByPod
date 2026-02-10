@@ -43,16 +43,18 @@ function renderSongList(sections) {
     sectionData.songs.forEach((song) => {
       cardContainer.innerHTML += `
                      <div class="song-card" data-id="${song.id}">
+                    <div class="song-cover">
                      <img
                       src="${song.cover}"
                       alt="songs"
                     />
+                  <div class="song-play">
+                  <i class="fa-solid fa-play"></i>
+                    </div>
+                    </div>
                     <div class="song-info">
                       <h2>${song.title}</h2>
                       <p>${song.artist}</p>
-                    </div>
-                    <div class="song-play">
-                      <i class="fa-solid fa-play"></i>
                     </div>
                     </div>`;
     });

@@ -1,6 +1,6 @@
 //Load URL when press on home/icon
 document.querySelectorAll(".nav-logo, .home-icon")
-  .forEach(el => el.addEventListener("click", () => location.reload()));
+  .forEach(home => home.addEventListener("click", () => location.reload()));
 
 //Making, nav-menu open close
 

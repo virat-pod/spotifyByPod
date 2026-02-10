@@ -87,9 +87,17 @@
     "cover": "./assets/covers/sailor_song.jpg",
     "audio": "./audio/sailor.mp3",
     "duration": "3:29"
-},              
+},    
 {
     "id": 11,
+    "title": "Neighbourhood",
+    "artist": "Tommy Scott",
+    "cover": "./assets/covers/neighbourhood.jpg",
+    "audio": "./audio/neighbourhood.mp3",
+    "duration": "4:36"
+},             
+{
+    "id": 12,
     "title": "Cigratte after Cry",
     "artist": "Human",
     "cover": "./assets/covers/cigratte_after_cry.jpg",
@@ -97,7 +105,7 @@
     "duration": "4:16"
 },
 {
-    "id": 12,
+    "id": 13,
     "title": "Heavenly",
     "artist": "Human",
     "cover": "./assets/covers/heavenly.jpg",
@@ -105,7 +113,7 @@
     "duration": "4:46"
 },
 {
-    "id": 13,
+    "id": 14,
     "title": "Golden Brown",
     "artist": "The Stranglers",
     "cover": "./assets/covers/golden_brown.jpg",
@@ -113,7 +121,7 @@
     "duration": "4:18"
 },              
 {
-    "id": 14,
+    "id": 15,
     "title": "Indila's Love Story",
     "artist": "Indila",
     "cover": "./assets/covers/indila_love.jpg",

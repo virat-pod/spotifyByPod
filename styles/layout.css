@@ -277,10 +277,9 @@
 }
 
 .song-info h2 {
-  display: -webkit-box;
-  -webkit-line-clamp: 1; /* number of lines */
-  -webkit-box-orient: vertical;
+   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .song-info p {

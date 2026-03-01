@@ -4,18 +4,18 @@
     "id": "liked",
     "name": "Anuv x Arjit",
     "cover": "./assets/playCovers/liked_img.jpg",
-    "songs": [5, 1, 7, 4]
+    "songs": [5, 1, 8, 4]
   },
   {
     "id": "english",
     "name": "English Vibes",
     "cover": "./assets/playCovers/english_songs.jpg",
-    "songs": [8, 10, 11, 14]
+    "songs": [9, 11, 12, 15]
   },
   {
     "id": "hindi",
     "name": "Hindi Vibes",
     "cover": "./assets/playCovers/hindi_vibes.jpg",
-    "songs": [7, 5, 4, 6, 1]
+    "songs": [8, 5, 4, 6, 1]
   }
 ]

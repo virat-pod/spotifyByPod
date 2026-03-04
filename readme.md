@@ -276,7 +276,7 @@ Add localStorage persistence for "liked" songs (suggested):
 ---
 
 ## Recommended next steps
-- Add localStorage for liked songs and last-played track.
+- Add localStorage for liked songs and last-played track. (additional)
 - Implement keyboard shortcuts (space to play/pause, arrow keys to seek).
 - Consider extracting a minimal state module to simplify feature additions.
 - Add ARIA roles and keyboard navigation for accessibility.
